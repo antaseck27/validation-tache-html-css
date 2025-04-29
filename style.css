@@ -1,0 +1,686 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:'Poppins',sans-serif;
+}
+/* --------------------------------------------------------------------------------------section nav  ------------------------------------------------------------------------------ */
+nav{
+    background-color: #80d0c7;
+    /* color: #80d0c7; */
+    padding: 10px 0;
+    display: flex;
+    justify-content: space-around;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000;
+    /* align-items: center;
+    justify-content: center; */
+
+}
+.logo{
+    display: flex;
+    flex-direction: row ;
+}
+.logo1{
+    height: 50px;
+    width: 50px;
+}
+label{
+    color: white;
+    
+}
+select{
+    background-color: transparent;
+    border: none;
+   
+}
+nav ul li{
+    display: inline-block;
+    list-style: none;
+    margin: 10px 15px;
+}
+nav ul li a{
+    text-decoration: none;
+    color: aliceblue;
+}
+h1{
+    color: black;
+    font-size: 30px;
+}
+i{
+   
+    font-size: 30px;
+    width: 140px;
+}
+.logo2{
+   
+    color: #80d0c7;
+    border-radius: 50%;
+    padding: 10px;
+    width: 50px;
+    height: 50px;
+    background-color: aliceblue;
+
+}
+
+/* ---------------------------------------------------------------------------- FIN NAV  -------------------------------------------------------------------------------------------- */
+ 
+/* ------------------------------------------------------------------------------HOME------------------------------------------------------------------------------------------------ */
+
+.hero{
+    width: 100%;
+    height: 70vh;
+    background-image: linear-gradient(15deg, #13547a 0%, #80d0c7 100%);
+    padding: 100px;
+
+}
+.hero h1{
+    text-align: center;
+    font-size: 80px;
+    padding: 10px;
+    color: white;
+}
+.hero h6{
+    text-align: center;
+    font-size: 50px;
+    color: #13547a;
+}
+/* ------------------------------------------------------------------------------bouton de recherche------------------------------------------- */
+.box{
+   
+    width: 100%;
+    max-width: 400px;
+    margin-top: 40px;
+   
+}
+.box .searche-box{
+    position: relative;
+    left: 300px;
+    margin: auto;
+    height: 40px;
+    max-width: 380px;
+   
+   
+}
+.searche-box input{
+    position: absolute;
+    height: 170%;
+    width: 170%;
+    border-radius: 50px;
+    margin: auto;
+    background-color: white;
+    outline: none;
+    border: none;
+  
+}
+.searche-box .icon{
+     position: relative;
+   top: 20px;
+   right: 0;
+   left: 20px;
+   width: 50px;
+   height: 100%;
+    color: black;
+    display: flex;
+    flex-direction: start;
+    float: left;
+    border-radius: 0 25px 25px 2;
+}
+.button1 button{
+    width: 150px;
+    height: 40px;
+    border-radius: 20px;
+    color: white;
+    background-color: #80d0c7;
+    border: none;
+    font-size: 20px;
+    position: relative;
+    left: 90vh;
+    bottom: 24px;
+}
+
+/* ----------------------------------------------------------------------HOME_SECTION2--------------------------------------------------- */
+
+.container2{
+    background-color: #80d0c7;
+    height: 500px;
+    border-bottom-left-radius: 100px;
+    border-bottom-right-radius: 100px;
+    margin-bottom: 100px;
+
+}
+.group1{
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    position: relative;
+    bottom: 50px; 
+    /* width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 100px; */
+}
+
+.group1 .img2 img{
+    width: 100%;
+    height: 100%;
+    border-radius: 30PX;
+    /* background: linear-gradient(15deg, #13547a 0%, #80d0c7 100%);; */
+    background: linear-gradient(15deg ,#13547a 0%, #80d0c7, 100%)
+    url('ton-image.jpg') no-repeat center/cover;;
+}
+.sougroup1{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 100px;
+   
+}
+.sougroup1 {
+    /* height: 300px;
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    border-radius: 30PX;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);  */
+    display: flex;
+    justify-content: space-between;
+    font-size: 20px;
+    background-image: url("image/tof1.jpeg");
+    background-size: cover;
+    width: 500px;
+    height: 400px;
+    border-radius: 50px;
+    padding: 20px; 
+    
+}
+.sougroup1 .tof3 .card {
+    width: 100%;
+    height: 30%;
+    padding: 10px;
+}
+.tof3 .photo11{
+    width: 100%;
+    height: 30%;
+    border-radius: 30PX;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+.tof3 .photo11 img{
+    width: 500px;
+    height: 400px;
+    border-radius: 30PX;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.sougroup2{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    font-size: 20px;
+    /* background-image: url("image/tof2.jpeg"); */
+    background-size: cover;
+    overflow: hidden;
+    background: 
+      linear-gradient(rgba(50, 128, 255, 0.3), rgba(5, 255, 200, 0.3)), /* Dégradé léger */
+    url('image/tof2.jpeg') center/cover no-repeat; /* Image de fond */
+   
+    color: white;
+    /* background: linear-gradient(15deg, #13547a 0%, #80d0c7 100%);
+     */
+    /* background: linear-gradient(15deg ,#13547a 0%, #80d0c7, 100%) url('https://via.placeholder.com/300x200') center/cover no-repeat; */
+    width: 700px;
+    height: 400px;
+    border-radius: 50px;
+    padding: 20px;
+
+}
+.finance{
+    display: flex;
+}
+.but button{
+    width: 150px;
+    height: 50px;
+    border-radius: 40px;
+    background-color: #20ddc7;
+    color: white;
+    border: none;
+    font-size: 20px;
+    margin-bottom: 150px;
+    cursor: pointer;
+
+}
+button {
+    background-color: #20ddc7;
+}
+.but button:hover{
+    background-color: #13547a;
+    
+}
+.shar{
+    display: flex;
+    justify-content: space-between;
+   
+  
+}
+.sharee{
+    display: flex;
+    border: solid 2px red;
+    /* height: 10px;
+   
+   height: 10px; */
+}
+.shar .sharee i{
+   height: 10px;
+   margin: -50px;
+   color: white;
+   background-color: #80d0c7;
+}
+/* -------------------------------------------------------------------------Browse------------------------------------------------------- */
+.browse{
+    text-align: center;
+    font-size: 30px;
+    font: bold;
+}
+.link1{
+
+}
+.browse ul li{
+    display: inline-block;
+    list-style: none;
+    margin: 10px 15px;
+}
+.browse ul li a{
+    text-decoration: none;
+    color: gray;
+    font-size: 20px;
+}
+.group3{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 100px;
+}
+.group3 .tof3{
+    height: 300px;
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    border-radius: 30PX;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+.group3 .tof3 .card{
+    width: 100%;
+    height: 30%;
+    padding: 10px;
+}
+.group3 .tof3 .photo1{
+    width: 100%;
+    height: 70%;
+    border-radius: 30PX;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);  
+}
+.group3 .tof3 .photo1 img {
+    width: 100%;
+    height: 100%;
+     border-radius: 30PX;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  
+}
+.card1{
+    display: flex;
+    justify-content: space-between;
+   
+}
+.group3 .tof3:hover{
+    transform: translateY(-10px);
+
+}
+
+.group3 .tof4{
+    width: 450px;
+    height: 350px;
+    background-image: url("image/tof3.jpeg");
+    background-size: cover;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    padding: -20px;
+    border-radius: 30PX;
+    display: flex;
+    justify-content: space-around;
+
+
+}
+.group3 .tof4 img{
+     width: 100%;
+    height: 100%; 
+    border-radius: 30PX;
+}
+
+.group3 .tof5{
+    width: 450px;
+    height: 350px;
+    background-image: url("image/tof4.jpeg");
+    background-size: cover;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    padding: 10px;
+    border-radius: 30PX;
+    display: flex;
+    justify-content: space-between;
+
+}
+.group3 .tof5 img{
+    width: 100%;
+    height: 100%; 
+    border-radius: 30PX;
+  
+}
+
+.group3 img{
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    padding: 20px;
+    margin: 50px auto;
+    background-color: #f8f9fa;
+}
+.group3 p{
+    font-size: 20px;
+    color: gray;
+    text-align: justify;
+    padding: 10px;
+}
+.group3 #chiffre{
+    width: 30px;
+    height: 40px;
+    padding: 5px;
+    font-size: 15px;
+    color: white;
+    background-color: rgb(12, 167, 214);
+    border-radius: 5px;
+}
+/* ---------------------------------------------------------------------------HOW IT WORK----------------------------------------------------------------- */
+.how{
+    background-image: url(image/tof-www.avif);
+    background-size: cover;
+    background: linear-gradient(15deg, #5b87a0 0%, #9eddd6 100%);;
+    height: 1000px;
+    padding: 100px;
+    color: white;
+    margin: auto;
+
+   
+}
+.how h4{
+    font-size: 30px;
+}
+.how p{
+    font-size: 20px;
+}
+.how h1{
+    font-size: 45px;
+    color: white;
+    text-align: center;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+.how i{
+    font-size: 50px;
+}
+.but button{
+    width: 200px;
+    height: 40px;
+    border-radius: 50px;
+    background-color: transparent;
+    color: #80d0c7;
+    border: 1px solid #80d0c7;
+   
+}
+.but button:hover{
+    color: white;
+    color: #80d0c7;
+    border: #80d0c7;
+   
+}
+.but{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding: 100px;
+    /* position: relative;
+    top: 90px;
+     */
+}
+.dive{
+    display: flex;
+    gap: 50px;
+     position: relative;
+    right: 50px; 
+}
+.rond{
+    color: white;
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    padding: 5px;
+    border: solid 3px #13547a;
+    background-color: #13547a;
+    position: relative;
+    bottom: 20px;
+    right: 10px;
+}
+.rond .icone .cercle i{
+    color: #fff;
+    background-color: #13547a;
+   
+}
+.icone{
+    color: white;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    border: solid 2px #dce3e7;
+    padding: 20px;
+    position: relative;
+    right: 0px;
+    left: 0px;
+    bottom: 0px;
+    background-color:#13547a;
+}
+.timeline{
+   /* width: 1000px; */
+   margin: 30px auto;
+   height: 60vh;
+   border-left: 5px solid #13547a;
+ 
+}
+.timeline-item{
+
+}
+
+#rond{
+    
+    /* color: white;
+    width: 130px;
+    height: 130px;
+    border-radius: 100%;
+    border: solid 3px rgb(167, 22, 22);
+    position: relative;
+    left: 180px;
+    bottom: 25px;
+    padding: 20PX; */
+    
+}
+#cercle{
+    /* width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    color: rgb(18, 131, 33);
+    border: solid 3px rgb(29, 241, 54);
+    position: relative;
+    bottom: 30px;
+    right: 50px; */
+}
+/* -----------------------------------------------------------------------FAQS------------------------------------------------------------------ */
+.container3 h1{
+    font-size: 50px;
+   
+}
+.container3{
+    padding: 50px;
+}
+
+.frequently {
+  display: flex;
+  justify-content: space-around;
+  gap: 50px;
+  padding: 10px;
+ 
+}
+.frequently img{
+    width: 600px;
+    height: 600px;
+    padding: 20px;
+   
+}
+.topic{
+    /* width: 500px; */
+    padding: 10px;
+    position: relative;
+    top: 100px;
+    right: 200px;
+   
+}
+.accordion{
+    margin: 100px auto;
+    width: 600px;
+}
+#accordion li{
+    list-style: none;
+    width: 100%;
+    margin-bottom: 10px;
+    background: #fff;
+    padding: 10px;
+    border-radius: 20px;
+}
+#accordion li label{
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 18px;
+    font-weight: 500;
+    cursor: pointer;
+    color: black;
+}
+#accordion li label:hover{
+    background-color: #c1dfed;
+    border-radius: 40px;
+   
+}
+#accordion li label span{
+    transform: rotate(90deg);
+    font-size: 22px;
+    color: #333;
+
+}
+#accordion label + input[type="radio"]{ 
+    display: none;
+  }
+
+  #accordion .content{
+    padding: 0 10px;
+    line-height: 16px;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.5s;
+}  
+
+#accordion label + input[type="radio"]:checked + .content{
+    max-height: 300px;
+} 
+
+
+/* ---------------------------------------------------------------------------CONTACT---------------------------------------------------------------------- */
+.touch{
+    display: flex;
+   justify-content: space-between;
+   
+}
+.touch p{
+    font-size: 20px;
+    color: gray;
+}
+.touch span{
+    color: #80d0c7;
+}
+.map img{
+    width: 500px;
+    border-radius: 40px;
+}
+.contact{
+    background-color: rgba(209, 224, 235, 0.768);
+    padding: 50px;
+   
+}
+.contact h1{
+    text-align: center;
+    font-size: 50px;
+    padding: 70px;
+}
+.bass{
+    display: flex;
+    flex-direction: row;
+    gap: 70px;
+}
+.bas1{
+  display: flex;
+  justify-content: space-around;
+  gap: 10px;
+  padding: 20px;
+  border-bottom-right-radius: 100px;
+  background-color: white;
+   
+}
+.bas1 h5{
+    color:#13547a;
+    font-size: 30px;
+}
+.bas1 p{
+    color: #80d0c7;
+    padding: 5px;
+}
+.bas p{
+    color: #13547a;
+   
+   
+}
+.bas h4{
+    color: aquamarine;
+}
+hr{
+    margin-bottom: 30px;
+   margin: 20px;
+}
+select{
+    background-color: #80d0c7;
+    color: white;
+    padding: 10px;
+    font-size: 20px;
+}
+.icon{
+    display: flex;
+    justify-content: center;
+    gap: 1px;
+    margin-top: 1px;
+}
+.icon li{
+    font-size: 30px;
+    color: #333;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+/* ---------------------------------------------------------------------fin contact----------------------------------------------------------------- */
