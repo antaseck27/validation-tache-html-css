@@ -3,6 +3,9 @@
     padding: 0;
     box-sizing: border-box;
     font-family:'Poppins',sans-serif;
+     outline: 1px solid red;
+      
+      
     
     
 }
@@ -19,8 +22,8 @@ nav{
     position: fixed;
     top: 0;
     left: 0;
-    width: 100%;
-    z-index: 1000;
+    width: 1500px;
+    
     /* align-items: center;
     justify-content: center; */
 
@@ -451,7 +454,7 @@ button {
 .dive{
     display: flex;
     gap: 50px;
-     position: relative;
+    position: relative;
     right: 50px; 
 }
 .rond{
