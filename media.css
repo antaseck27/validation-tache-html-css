@@ -1,11 +1,15 @@
 @media screen and (max-width:768px){
+      *{
+        margin: 0;
+        padding: 0;
+      }
     nav{
         position: fixed;
         top: 0;
         left: 0;
         display: flex;
         padding: 10px;
-        width: 320px;
+        /* width: 320px; */
         z-index: 1000;
     }
     nav ul{
@@ -13,6 +17,10 @@
     }
     .logo i{
         width: 30px;
+        padding: 0px;
+    }
+    .logo2{
+
     }
     .home h1{
        text-align: center;
@@ -26,19 +34,21 @@
     
     }
     .hero{
-    width: 100%;
-    height: 70vh;
+    
+    height: 500px;
     background-image: linear-gradient(15deg, #13547a 0%, #80d0c7 100%);
     padding: 10px;
     
     }
     .hero h1{
-        font-size: 35px;
+        font-size: 36px;
         color: white;
+        padding: 10px;
+        
     
     }
     .hero h6{
-        font-size: 12px;
+        font-size: 18px;
         color: #13547a;
     }
 
@@ -54,7 +64,7 @@
         left: -5px;
         margin: auto;
         height: 40px;
-        max-width: 380px;
+        max-width: 350px;
        
        
     }
@@ -82,21 +92,28 @@
         justify-content: center;
         align-items: center;
         position: relative;
-        bottom: 100px;
+        bottom: 90px;
+        padding: 0px;
+        margin: 0px;
+    
         
     }
     .sougroup1 {
-        width: 300px;
-        height: 420px;
+        width: 320px;
+        height: 400px;
         border-radius: 30px;
+        padding: 0;
+        
+        
     }
     .sougroup2{
-        width: 300px;
+        width: 320px;
         height: 300px;
         border-radius: 30px;
     }
     .container2{
         height: 700px;
+        
     }
     .sharee{
         display: flex;
@@ -113,10 +130,11 @@
         display: flex;
         flex-direction: column;
         padding: 5px;
-        gap: 80px;
+        gap: 70px;
         position: relative;
-        bottom: 140px;
-        left: px;
+        bottom: 120px;
+        left: 50px;
+        
     }
     .group3 .tof3{
         height: 400px;
@@ -180,21 +198,24 @@
         background-image: url(image/tof-www.avif);
         background-size: cover;
         background: linear-gradient(15deg, #5b87a0 0%, #9eddd6 100%);;
-        height: 188vh;
+        height: 1400px;
         padding: 20px;
         color: white;
         margin: auto;
     }
     .how h4{
         font-size: 24px;
+        padding: 0px;
     }
     .how p{
-        font-size: 15px;
+        font-size: 20px;
+    
     }
     .how h1{
         font-size: 30px;
         color: white;
         text-align: center;
+        padding: 20px;
     }
     .container{
         display: flex;
@@ -208,11 +229,11 @@
         display: flex;
         flex-direction: column;
         justify-content: center;
-        gap: 10px;
-        padding: 60px;
+        gap: 15px;
+        padding: 45px;
         position: relative;
-        right: 30px;
-        top: 32vh;
+        left: 30px;
+        top: 250px;
         
     }
     .but button{
@@ -242,13 +263,13 @@
        padding: 20px;
     }
     .timeline{
-        width: 290px;
+        width: 350px;
         margin: 0px auto;
-        height: 120vh;
+        height: 900px;
         padding: 0px;
         border-left: 3px solid #13547a;
         position: relative;
-        left: 0px;
+        left: 40px;
       
      }
      .dive{
@@ -260,7 +281,11 @@
     .container3{
         padding: 20px;
     }
-    
+    .container3 h1{
+        font-size: 40px;
+        padding: 10px;
+       
+    }
     .frequently {
       display: flex;
       justify-content: space-around;
@@ -273,17 +298,18 @@
         height: 340px;
         padding: 0px;
         position: relative;
-        right: 50px;
+        right: 0px;
        
     }
     .topic{
         height: 700px;
         padding: 0px;
         position: relative;
-        right:430px;
+        right:350px;
         top: 350px;
        
     }
+   
     .accordion{
         padding: 10px;
         margin: 10px auto;
@@ -303,7 +329,7 @@
         align-items: center;
         justify-content: space-between;
         font-size: 18px;
-        font-weight: 500;
+        font-weight: 1000;
         cursor: pointer;
         color: black;
     }
@@ -339,19 +365,19 @@
        
     }
     .touch p{
-        font-size: 20px;
+        font-size: 23px;
         color: gray;
     }
     .touch span{
         color: #80d0c7;
     }
     .map img{
-        width: 300px;
-        height: 250px;
+        width: 400px;
+        height: 300px;
         border-radius: 40px;
         position: relative;
-        left: -35px;
-        padding: 20px;
+        left: -30px; 
+        padding: 10px;
     }
     .contact{
         background-color: rgba(209, 224, 235, 0.768);
@@ -388,4 +414,4 @@
     }
    
 
-    {  
+  }
