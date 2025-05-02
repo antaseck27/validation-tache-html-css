@@ -219,7 +219,7 @@
                
             }
             .topic{
-               height: 53vh;
+               height: 60vh;
                 padding: 0px;
                 position: relative;
                 right:0px;
@@ -256,7 +256,7 @@
                 flex-direction: column;
                 justify-content: center;
                 align-items: center;
-                padding: 20px;
+                padding: 10px;
                
             }
             .touch p{
