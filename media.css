@@ -120,7 +120,7 @@
             /*--------------------------------------------------------------------------------- HOW IT WORK ---------------------------------------------------------------------------------*/
 
             .how{
-                height: 140vh;
+                height: auto;
                 padding: 0px;
                 color: white;
                 margin: auto;  
@@ -142,7 +142,7 @@
                 font-size: 30px;
                 color: white;
                 text-align: center;
-                padding: 0px;
+                padding: 15px;
             }
             .but{
                 display: flex;
