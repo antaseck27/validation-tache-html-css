@@ -120,13 +120,10 @@
             /*--------------------------------------------------------------------------------- HOW IT WORK ---------------------------------------------------------------------------------*/
 
             .how{
-                height: 120vh;
+                height: 130vh;
                 padding: 0px;
                 color: white;
-                margin: auto;
-               
-            
-               
+                margin: auto;  
             }
             .how h4{
                 font-size: 20px;
@@ -151,14 +148,9 @@
                 display: flex;
                 flex-direction: column;
                 justify-content: center;
-                margin-top: -180px;
+                margin-top: -50px;
                  gap: 20px;
     
-                /* padding: 0px;
-                position: relative;
-                left: 0px;
-                bottom: 10px;  */
-                
             }
             .timeline{
                 width: 100vw; 
