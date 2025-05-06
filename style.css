@@ -191,6 +191,7 @@ i{
     width: 500px;
     height: 400px;
     border-radius: 50px;
+    border: 1px solid rgb(173, 168, 168);
     padding: 20px; 
     
 }
@@ -230,11 +231,13 @@ i{
     /* background-image: url("image/tof2.jpeg"); */
     background-size: cover;
     overflow: hidden;
+    border: 1px solid rgb(173, 168, 168);
     background: 
       linear-gradient(rgba(50, 128, 255, 0.3), rgba(5, 255, 200, 0.3)), /* Dégradé léger */
     url('image/tof2.jpeg') center/cover no-repeat; /* Image de fond */
    
     color: white;
+    
     /* background: linear-gradient(15deg, #13547a 0%, #80d0c7 100%);
      */
     /* background: linear-gradient(15deg ,#13547a 0%, #80d0c7, 100%) url('https://via.placeholder.com/300x200') center/cover no-repeat; */
